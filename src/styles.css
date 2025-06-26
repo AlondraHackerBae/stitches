@@ -70,17 +70,29 @@ header {
 }
 .promo-banner {
   background: rgb(119, 180, 208);
+  overflow: hidden;
   padding: 15px;
   position: relative;
-  top: 50px;
+  top: 26px;
+  white-space: nowrap;
 }
 .promos {
-  animation: my-animation 70s linear infinite;
-  transform: translateX(100%);
+  animation: promo-banner 70s linear infinite;
   display: flex;
   justify-content: space-evenly;
+  transform: translateX(100%);
 }
-@keyframes my-animation {
+h2 {
+  margin: 60px 30px;
+}
+.sandals {
+  display: flex;
+ 
+  justify-content: space-around;
+  
+}
+
+@keyframes promo-banner {
   from {
     transform: translateX(100%);
   }
