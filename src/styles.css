@@ -68,3 +68,23 @@ header {
   color: white;
   transition: all ease-in-out 150ms;
 }
+.promo-banner {
+  background: rgb(119, 180, 208);
+  padding: 15px;
+  position: relative;
+  top: 50px;
+}
+.promos {
+  animation: my-animation 70s linear infinite;
+  transform: translateX(100%);
+  display: flex;
+  justify-content: space-evenly;
+}
+@keyframes my-animation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
