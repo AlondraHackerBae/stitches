@@ -117,9 +117,9 @@ h2 {
   display: flex;
   font-size: 20px;
   justify-content: space-around;
+  left: -115px;
   margin-top: 8px;
   position: relative;
-  left: -115px;
 }
 .featured-collection {
   background-color: #f1f1f3;
@@ -168,13 +168,72 @@ h2 {
 }
 .sandal6 {
   height: 45vh;
+  left: 40px;
   padding: 10px;
   position: relative;
-  left: 40px;
   top: 110px;
   width: 100%;
 }
+.about-us {
+  font-size: 50px;
+  font-weight: 100;
+}
+.womens-title {
+  display: flex;
+  font-size: 45px;
+  justify-content: space-between;
+  padding: 20px;
+}
 
+.sneaker {
+  background: #eaeaee;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.newsletter {
+  background: #2070af;
+  height: 70vh;
+  width: 100%;
+}
+.subscribe-tag {
+  position: relative;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  top: 70px;
+}
+.newsletter-tag {
+  color: black;
+  display: block;
+  font-size: 150px;
+  letter-spacing: 5px;
+  text-align: center;
+  top: 60px;
+  position: relative;
+  text-transform: uppercase;
+}
+.email-box {
+  padding: 20px;
+  display: block;
+  font-size: 12px;
+  margin: 0 auto;
+  top: 90px;
+  position: relative;
+  width: 20%;
+  text-align: left;
+}
+#sign-up-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
 @keyframes promo-banner {
   from {
     transform: translateX(100%);
