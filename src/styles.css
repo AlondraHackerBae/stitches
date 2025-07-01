@@ -43,6 +43,9 @@ header {
   padding: 30px;
   text-decoration: none;
 }
+.links .navbar a:hover {
+  text-decoration: underline;
+}
 .cart-number {
   font-size: 13px;
 }
@@ -94,6 +97,22 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
+.sandal1:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 250ms;
+}
+.sandal2:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 250ms;
+}
+.sandal3:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 250ms;
+}
+.sandal4:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 250ms;
+}
 .shoe-names {
   display: flex;
   font-size: 20px;
@@ -108,6 +127,13 @@ h2 {
   top: 70px;
   width: 100%;
   height: 50vh;
+}
+.sandal-5 {
+  height: 50vh;
+  right: 400px;
+  padding: 15px;
+  position: relative;
+  width: 100%;
 }
 
 @keyframes promo-banner {
