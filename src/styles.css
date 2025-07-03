@@ -244,6 +244,34 @@ h2 {
   color: white;
   transition: all ease-in-out 150ms;
 }
+.sneaker-pile {
+  height: 50vh;
+  width: 100%;
+}
+.footer {
+  background: black;
+  color: white;
+  height: 15vh;
+  width: 100%;
+}
+.col {
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+#col-bio {
+  font-size: 10px;
+}
+#col-bio a {
+  color: grey;
+  text-decoration: none;
+}
+#col-bio a:hover {
+  color: grey;
+  text-decoration: underline;
+}
 
 @keyframes promo-banner {
   from {
