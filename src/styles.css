@@ -298,11 +298,10 @@ ul {
     font-size: 12px;
     padding: 10px;
     position: relative;
-    top: 97px;
+    top: 60px;
   }
   .promos {
     justify-content: space-evenly;
-  
   }
   .navbar a {
     padding: 4px !important;
@@ -312,5 +311,34 @@ ul {
   }
   .middle {
     display: none;
+  }
+  .womens-title {
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    top: 40px;
+    position: relative;
+  }
+  #about-us {
+    display: none;
+  }
+  #collections {
+    display: none;
+  }
+  .sneaker-pile {
+    height: 15vh;
+    width: 100%;
+  }
+  #newsletter {
+    display: none;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  ul {
+    font-size: 9px;
+  }
+  #col-bio {
+    font-size: 8px;
   }
 }
