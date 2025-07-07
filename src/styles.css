@@ -317,7 +317,13 @@ ul {
     font-size: 17px;
     justify-content: space-between;
     top: 40px;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
+  }
+  #womens-sneakers {
+    position: relative;
+    right: 10px;
   }
   #about-us {
     display: none;
