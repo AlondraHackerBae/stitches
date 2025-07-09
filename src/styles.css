@@ -362,7 +362,19 @@ ul {
     width: 100%;
   }
   #newsletter {
-    display: none;
+    height: 60vh;
+  }
+  .newsletter-tag {
+    font-size: 50px;
+  }
+  .email-box {
+    width: 70%;
+  }
+  #sign-up-button {
+    margin: 0 auto;
+    left: 150px;
+    position: relative;
+    top: 200;
   }
   .footer {
     font-size: 10px;
