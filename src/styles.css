@@ -337,19 +337,23 @@ ul {
   .womens-title {
     display: flex;
     font-size: 17px;
+    font-weight: 700;
     justify-content: space-between;
     top: 40px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0px 5px 20px 5px;
     position: relative;
   }
   #womens-sneakers {
     position: relative;
     right: 10px;
   }
+
   #about-us {
-    display: none;
+    font-size: 30px;
+    margin: 10px;
+    text-align: left;
   }
+
   #collections {
     display: none;
   }
