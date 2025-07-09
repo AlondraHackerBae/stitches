@@ -122,6 +122,9 @@ h2 {
   margin-top: 8px;
   position: relative;
 }
+hr {
+  display: none;
+}
 .featured-collection {
   background-color: #f1f1f3;
   height: 60vh;
@@ -295,7 +298,7 @@ ul {
     font-size: 70px !important;
   }
   .promo-banner {
-    font-size: 12px;
+    font-size: 3vw;
     padding: 10px;
     position: relative;
     top: 60px;
@@ -309,8 +312,27 @@ ul {
     margin-top: 17px;
     left: 20px;
   }
-  .middle {
+  #new-in {
+    font-size: 50px;
+    margin: 60px 20px 10px 20px;
+  }
+  .sandals {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    padding: 0;
+  }
+  .sandal1:hover,
+  .sandal2:hover,
+  .sandal3:hover,
+  .sandal4:hover {
+    transform: none;
+  }
+  .shoe-names {
     display: none;
+  }
+  hr {
+    display: flex;
   }
   .womens-title {
     display: flex;
