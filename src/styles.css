@@ -78,7 +78,10 @@ header {
   transition: all ease-in-out 150ms;
 }
 .promo-banner {
+  align-items: center;
   background: rgb(119, 180, 208);
+  display: flex;
+  justify-content: space-around;
   overflow: hidden;
   padding: 10px;
   position: relative;
@@ -86,10 +89,15 @@ header {
   white-space: nowrap;
 }
 .promos {
-  animation: promo-banner 70s linear infinite;
-  display: flex;
+  animation: promo-banner 60s linear infinite;
+  display: inline-block;
+  margin: 0 15px;
+  text-align: center;
   justify-content: space-evenly;
   transform: translateX(100%);
+}
+.promo {
+  margin-right: 50px;
 }
 h2 {
   margin: 60px 30px;
